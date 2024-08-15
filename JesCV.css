@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Fredoka:wght@300..700&display=swap');
+
+:root{
+    --main-color: rgb(214, 219, 143);
+    --black: rgb(34, 34, 34);
+    --bg: rgb(34, 34, 34);
+    --border: 1rem solid rgb(155, 155, 155);
+}
+
+*{
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: white;
+    border-radius: 5rem;
+}
+
+body{
+    background: var(--bg);
+}
+
+section{
+    padding: 2rem 7%;
+}
+
+
+.heading{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+}
+
+
+.header{
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top:0; left: 0; right: 0;
+    z-index: 1000;
+}
+
+.header .logo img{
+    height: 6rem;
+}
+
+.header .navbar a{
+    margin: 0 1rem;
+    font-size: 1.6rem;
+    color: aliceblue;
+}
+
+.header .navbar a:hover{
+    color: var(--main-color);
+    border-bottom: .1rem solid var(--main-color);
+    padding-bottom: .5rem;
+}
+
+
+
+.qq{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(imagenes/1z.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+}
+
+.qq .content h3 {
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.qq .content2 h1 {
+    font-style: oblique;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.qq .content2 h2 {
+    font-style: italic;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.qq .content2 h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.qq .content .foto {
+    flex: 1 1 45rem;
+}
+
+.qq .content .foto {
+    width: 50%;
+}
+
+
+
+
+
+.ww .row {
+    font-size: 4rem;
+    color: aquamarine;
+    font-style: italic;
+}
+.ww .row {
+    display: flex;
+    align-items: center;
+    background: var(--black);
+    flex-wrap: wrap;
+}
+.ww .row .image{
+    flex: 1 1 25rem;
+}
+.ww .row .image img{
+    width: 70%;
+}
+.ww .row .content{
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+.ww .row .content h3{
+    font-size: 6rem;
+    color: azure;
+}
+.ww .row .content p{
+    font-size: 1.6rem;
+    color: azure;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+
+
+
+
+
+
+
+.ee .row {
+    font-size: 4rem;
+    color: aquamarine;
+    font-style: italic;
+}
+.ee .row {
+    display: flex;
+    align-items: center;
+    background: var(--black);
+    flex-wrap: wrap;
+}
+.ee .row .image{
+    flex: 1 1 25rem;
+}
+.ee .row .image img{
+    width: 70%;
+}
+.ee .row .content{
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+.ee .row .content h3{
+    font-size: 6rem;
+    color: azure;
+}
+.ee .row .content p{
+    font-size: 1.6rem;
+    color: azure;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+
+
+
+
+
+
+.rr .row {
+    font-size: 4rem;
+    color: aquamarine;
+    font-style: italic;
+}
+.rr .row {
+    display: flex;
+    align-items: center;
+    background: var(--black);
+    flex-wrap: wrap;
+}
+.rr .row .image{
+    flex: 1 1 25rem;
+}
+.rr .row .image img{
+    width: 70%;
+}
+.rr .row .content{
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+.rr .row .content h3{
+    font-size: 6rem;
+    color: azure;
+}
+.rr .row .content p{
+    font-size: 1.6rem;
+    color: azure;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+
+
+
+
+
+.tt .row {
+    font-size: 4rem;
+    color: aquamarine;
+    font-style: italic;
+}
+.tt .row {
+    display: flex;
+    align-items: center;
+    background: var(--black);
+    flex-wrap: wrap;
+}
+.tt .row .image{
+    flex: 1 1 25rem;
+}
+.tt .row .image img{
+    width: 70%;
+}
+.tt .row .content{
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+.tt .row .content h3{
+    font-size: 6rem;
+    color: azure;
+}
+.tt .row .content p{
+    font-size: 1.6rem;
+    color: azure;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+
+
+
+
+
+.yy .row {
+    font-size: 4rem;
+    color: aquamarine;
+    font-style: italic;
+}
+.yy .row {
+    display: flex;
+    align-items: center;
+    background: var(--black);
+    flex-wrap: wrap;
+}
+.yy .row .image{
+    flex: 1 1 25rem;
+}
+.yy .row .image img{
+    width: 70%;
+}
+.yy .row .content{
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+.yy .row .content h3{
+    font-size: 6rem;
+    color: azure;
+}
+.yy .row .content p{
+    font-size: 1.6rem;
+    color: azure;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
